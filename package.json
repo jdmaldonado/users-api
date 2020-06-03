@@ -1,0 +1,23 @@
+{
+  "name": "users-api",
+  "version": "1.0.0",
+  "description": "API to handle users and their tasks",
+  "main": "app.js",
+  "scripts": {
+    "serve": "node app.js"
+  },
+  "keywords": [
+    "users",
+    "tasks",
+    "firebase",
+    "node",
+    "express"
+  ],
+  "author": "jdmaldonado (Juan David Maldonado Gómez)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.12.1"
+  }
+}
