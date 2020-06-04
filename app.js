@@ -7,12 +7,14 @@ const port = 3000;
 
 /** Routes */
 const usersRouter = require('./routes/users');
+const tasksRouter = require('./routes/tasks');
 
 app.use(cors({ origin: true }));
 app.use(express.json());
 
 /** Routes config */
 app.use('/users', usersRouter);
+app.use('/tasks', tasksRouter);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
